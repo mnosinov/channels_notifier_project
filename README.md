@@ -5,3 +5,6 @@ based on https://dev.to/israjurrahman/how-to-implement-asynchronous-socket-statu
 # .env file:
 
 SECRET_KEY=some_very_long_secret_key
+
+
+# to test the application you need install Simple WebSocket Client extension for Chrome and then from it connect to ws://127.0.0.1:8000/ws/status/. For further instructions see the above link.
