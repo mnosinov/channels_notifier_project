@@ -1,0 +1,16 @@
+{% load static %}
+<html>
+	<head>
+		<title>Django Channels Status</title>
+	</head>
+	<body>
+		<h1>Check Status</h1>
+
+		<form action="{% url 'status' %}" method="post">
+			{% csrf_token %}
+			<input type="text" placeholder="Enter anything" name="TB_sample" id="TB_sample"/><br/>
+			<input type="submit" value="submit">
+		</form>
+
+	</body>
+</html>
